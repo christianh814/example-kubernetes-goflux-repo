@@ -85,7 +85,7 @@ This should give you 2 `kustomizations`
 ```shell
 $ kubectl get kustomizations -n flux-system 
 NAME          READY   STATUS                                                            AGE
-core   True    Applied revision: main/111881dc371dd1b2abd823450f01ee085aff3726   3m50s
+core          True    Applied revision: main/111881dc371dd1b2abd823450f01ee085aff3726   3m50s
 tenants       True    Applied revision: main/111881dc371dd1b2abd823450f01ee085aff3726   3m50s
 ```
 
