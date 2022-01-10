@@ -93,7 +93,7 @@ This should also load your git source
 
 ```shell
 $ kubectl get gitrepositories -n flux-system
-NAME                URL                                                               READY   STATUS                                                            AGE
+NAME                   URL                                                               READY   STATUS                                                            AGE
 cluster-xxxx-gitrepo   https://github.com/christianh814/example-kubernetes-goflux-repo   True    Fetched revision: main/111881dc371dd1b2abd823450f01ee085aff3726   4m25s
 ```
 
